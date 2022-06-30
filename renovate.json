@@ -3,6 +3,7 @@
   "prConcurrentLimit": 2,
   "includePaths": ["+(package.json)"],
   "vulnerabilityAlerts": {
-    "labels": ["security"]
+    "labels": ["security"],
+    "prConcurrentLimit": 10
   }
 }
