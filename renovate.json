@@ -1,9 +1,9 @@
 {
-  "extends": ["config:base", "schedule:earlyMondays", "npm:unpublishSafe"],
+  "extends": ["config:base", "npm:unpublishSafe"],
   "prConcurrentLimit": 2,
   "includePaths": ["+(package.json)"],
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "prConcurrentLimit": 10
+    "prConcurrentLimit": 0
   }
 }
