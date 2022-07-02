@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import jsdom from 'jsdom';
 
 function App() {
+  const { JSDOM } = jsdom;
+  const dom = new JSDOM(`<!DOCTYPE html><p>Hello world</p>`);
+  console.log(dom.window.document.querySelector('p').textContent);
+
   return (
     <div className="App">
       <header className="App-header">
