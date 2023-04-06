@@ -10,7 +10,8 @@
     {
       "hostType": "npm",
       "matchHost": "https://artifactory.nexttrucking.com/artifactory/api/npm/npm/",
-      "token": "cmVmdGtuOjAxOjE3MTIzMDExODQ6UVNNTFVMQnlCcGYxODFJN2Jqd3JISDFmYXU3"
+      "token": "cmVmdGtuOjAxOjE3MTIzMDExODQ6UVNNTFVMQnlCcGYxODFJN2Jqd3JISDFmYXU3",
+      "authType": "Basic"
     }
   ],
   "npmToken": "cmVmdGtuOjAxOjE3MTIzMDExODQ6UVNNTFVMQnlCcGYxODFJN2Jqd3JISDFmYXU3",
