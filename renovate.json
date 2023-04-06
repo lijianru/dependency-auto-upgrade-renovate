@@ -5,5 +5,14 @@
   "vulnerabilityAlerts": {
     "labels": ["security"],
     "prConcurrentLimit": 0
-  }
+  },
+  "hostRules": [
+    {
+      "hostType": "npm",
+      "matchHost": "https://artifactory.nexttrucking.com/artifactory/api/npm/npm/",
+      "encrypted": {
+        "npmToken": "wcFMA/xDdHCJBTolARAAjorjnpzbdo72EEUPKde4BksFMq8dTVzHOejk5rzy9f1Se2q8gHdB+zNj9fJWnAoIVy+HSUyVheTB41TuJCy902l5pdQAxst9Y+QqRFsTa4KZ9F/zGnniMqUfL5KlkCHxHIbjzs8/Y4r/2wefNUxQWuGIAocPfpT688rO8KG1UIBoMp98PixHuxHY2egRfCQCMWPCktMfdLF2izndP6E8NQihhr3LC/xOdr5W60pftbuDbo1/DQ1nV8zlipEY7RdpL45mMCVWZGptLWDyWxdF8NDrWovoMsqyCWknZzJmRov6xqquiZuijSAfYSwozeD+6G1Gm3Iw4z2bAmmBRrif+QNo+QY4mw6g54RnLdeWjIAj9IyjsFsyurWZdAxCmQfNcRlanDXg3ZPMEjGO7dl0YgwwO4OfvLMODIhHgfzJEjyTj/1KSBZSBpfzVuWqtZQyA7GZNGuEkt+nss5Vp7ncgA7neqD4yaao+pggJYhFMaH8BRbCpK5A7NhLCVEoN+P3QYYHzNvjZwZph/UjLm4xK3xVqGJ3Z8KeTKKyx4oRMltBH8uNmW8SPPqt8RTkTia4umZNmHLm2o2e6K9yaZIMGPCtBnZT0BLUneZTmqkeAh3AgR4GgY5gTLD/VY6ccbzaMSlQT6TTx+i/kq7UPEMv8Rstw44qCQOgdVRGkIHnjv7SkwH3wUTGuUwKINq8pmsV3Cwcd9xiureQnszu0yGvwpGuXV3bRnozFQNYF8PFb3llqy63WwV9OsG7aWluVB9YiE44tOdqtdzzn+rOltPMdPhGeSoINe4NeybMJNEBfGW0qP0sPdCOuGB1AI6gOf1DdJLgHlrm4FGeOerehIWjjIxiiIjAG+5v8bSnXMg1mpnB2UOMsQ"
+      }
+    }
+  ]
 }

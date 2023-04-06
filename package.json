@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.17.8",
+    "@nexttrucking/accounting-api": "^2.0.0-SNAPSHOT.202209270326",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.4",
     "@svgr/webpack": "5.5.0",
     "@testing-library/jest-dom": "5.16.2",
@@ -31,6 +32,7 @@
     "jest": "27.5.1",
     "jest-resolve": "27.5.1",
     "jest-watch-typeahead": "1.0.0",
+    "jsdom": "16.3.0",
     "mini-css-extract-plugin": "2.6.0",
     "postcss": "8.4.12",
     "postcss-flexbugs-fixes": "5.0.2",
