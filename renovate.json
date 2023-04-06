@@ -12,5 +12,7 @@
       "matchHost": "https://artifactory.nexttrucking.com/artifactory/api/npm/npm/",
       "token": "cmVmdGtuOjAxOjE3MTIzMDExODQ6UVNNTFVMQnlCcGYxODFJN2Jqd3JISDFmYXU3"
     }
-  ]
+  ],
+  "npmToken": "cmVmdGtuOjAxOjE3MTIzMDExODQ6UVNNTFVMQnlCcGYxODFJN2Jqd3JISDFmYXU3",
+  "npmrc": "//nexttrucking.jfrog.io/nexttrucking/api/npm/npm/:_authToken=cmVmdGtuOjAxOjE3MTIzMDExODQ6UVNNTFVMQnlCcGYxODFJN2Jqd3JISDFmYXU3"
 }
