@@ -4,8 +4,7 @@
   "includePaths": ["+(package.json)"],
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "prConcurrentLimit": 0,
-    "includeIndirect": true
+    "prConcurrentLimit": 0
   },
   "hostRules": [
     {
